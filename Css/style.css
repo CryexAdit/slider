@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.w-100{
+    width: 100%;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+ul,ol,li{
+    list-style: none;
+}
+section{
+    padding: 50px 0; 
+    background: #eee;
+}
+.my_slider{
+   
+}
+.my_slider .slider_item{
+    /* height: 500px;
+    width: 300px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 0 10px;
+}
+.my_slider .slider_item .image{
+    height: 500px;
+}
+.my_slider .slider_item .image img{
+  object-fit: cover;
+   height: 100%;
+}
+.my_slider .slider_item.slick-active.slick-center{
+    border-radius: 16px;
+    color: #fff;
+    font-size: 30px;
+}
+.my_slider .item-1{
+    background: green;
+}
+.my_slider .item-2{
+    background: blue;
+}
+.my_slider .item-3{
+    background: purple;
+}
+.my_slider .item-4 {
+    background: peru;
+   
+}
+.my_slider .prev_arr{
+    width: 30px;
+    height: 30px;
+    display: flex !important;
+    border-radius: 50%;
+    color: #fff;
+    background: transparent;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    z-index: 100;
+    cursor: pointer;
+}
+.my_slider .next_arr{
+    width: 30px;
+    height: 30px;
+    display: flex !important;
+    border-radius: 50%;
+    color: #fff;
+    background: transparent;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translateY(-50%);
+    z-index: 100;
+    cursor: pointer;
+}
+.my_slider .slick-dots{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+}
+.my_slider .slick-dots li{
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    float: left;
+}
+.my_slider .slick-dots li.slick-active{
+    background: transparent;
+    border: 1px solid red;
+}
+.my_slider .slick-dots li button{
+    display: none;
+}
+
+
+
